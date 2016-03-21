@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1AB7FA4BF4896828C33900C3 /* Pods_SugarRecordExamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF4F5F10659263424511B913 /* Pods_SugarRecordExamples.framework */; };
+		03FECD624ABB34FC4B91F483 /* Pods_SugarRecordExamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3C86ECECE09218378AED8EB /* Pods_SugarRecordExamples.framework */; };
 		232660A71C28563F00575110 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232660A61C28563F00575110 /* Random.swift */; };
 		236B5A131C38869200C9E469 /* CoreDataBasicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236B5A121C38869200C9E469 /* CoreDataBasicView.swift */; };
 		236B5A171C3886CA00C9E469 /* Basic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 236B5A151C3886CA00C9E469 /* Basic.xcdatamodeld */; };
@@ -31,9 +31,9 @@
 		23D5927D1C28494500441B41 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23D592861C284BE800441B41 /* RealmBasicView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmBasicView.swift; sourceTree = "<group>"; };
 		23D592891C28554700441B41 /* Directory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Directory.swift; sourceTree = "<group>"; };
-		31A691B434CCFDB7F18A563B /* Pods-SugarRecordExamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SugarRecordExamples.release.xcconfig"; path = "Pods/Target Support Files/Pods-SugarRecordExamples/Pods-SugarRecordExamples.release.xcconfig"; sourceTree = "<group>"; };
-		CF4F5F10659263424511B913 /* Pods_SugarRecordExamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SugarRecordExamples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D131A2F246F7CAF7826F9A01 /* Pods-SugarRecordExamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SugarRecordExamples.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SugarRecordExamples/Pods-SugarRecordExamples.debug.xcconfig"; sourceTree = "<group>"; };
+		8E58200D3E1800CEA17EB10E /* Pods-SugarRecordExamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SugarRecordExamples.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SugarRecordExamples/Pods-SugarRecordExamples.debug.xcconfig"; sourceTree = "<group>"; };
+		A3C86ECECE09218378AED8EB /* Pods_SugarRecordExamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SugarRecordExamples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8009007D4B16EBDCDE99A93 /* Pods-SugarRecordExamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SugarRecordExamples.release.xcconfig"; path = "Pods/Target Support Files/Pods-SugarRecordExamples/Pods-SugarRecordExamples.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,20 +41,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AB7FA4BF4896828C33900C3 /* Pods_SugarRecordExamples.framework in Frameworks */,
+				03FECD624ABB34FC4B91F483 /* Pods_SugarRecordExamples.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		16EB0E5D617097C26E87CD1A /* Pods */ = {
+		1753AE97EF32613A78D611E6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D131A2F246F7CAF7826F9A01 /* Pods-SugarRecordExamples.debug.xcconfig */,
-				31A691B434CCFDB7F18A563B /* Pods-SugarRecordExamples.release.xcconfig */,
+				A3C86ECECE09218378AED8EB /* Pods_SugarRecordExamples.framework */,
 			);
-			name = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		236B5A141C3886BF00C9E469 /* DataModels */ = {
@@ -70,8 +69,8 @@
 			children = (
 				23D5925F1C2834DC00441B41 /* SugarRecord */,
 				23D5925E1C2834DC00441B41 /* Products */,
-				5A3C56D0AF87644CC3243464 /* Frameworks */,
-				16EB0E5D617097C26E87CD1A /* Pods */,
+				5C40606A46F735F795CD5F92 /* Pods */,
+				1753AE97EF32613A78D611E6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -188,12 +187,13 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
-		5A3C56D0AF87644CC3243464 /* Frameworks */ = {
+		5C40606A46F735F795CD5F92 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CF4F5F10659263424511B913 /* Pods_SugarRecordExamples.framework */,
+				8E58200D3E1800CEA17EB10E /* Pods-SugarRecordExamples.debug.xcconfig */,
+				D8009007D4B16EBDCDE99A93 /* Pods-SugarRecordExamples.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,12 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23D5926F1C2834DC00441B41 /* Build configuration list for PBXNativeTarget "SugarRecordExamples" */;
 			buildPhases = (
-				8D42E3C27E6E80B060CA9A40 /* Check Pods Manifest.lock */,
+				40CE7F640A0EA55A4D945AE0 /* 📦 Check Pods Manifest.lock */,
 				23D592591C2834DC00441B41 /* Sources */,
 				23D5925A1C2834DC00441B41 /* Frameworks */,
 				23D5925B1C2834DC00441B41 /* Resources */,
-				E68920331705CEDB315ACD7D /* Embed Pods Frameworks */,
-				E6FE731782453C22D653D11A /* Copy Pods Resources */,
+				BA0D16E60D634849C814757C /* 📦 Embed Pods Frameworks */,
+				5A5D04A9D5254A3A6E74DB54 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,14 +265,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8D42E3C27E6E80B060CA9A40 /* Check Pods Manifest.lock */ = {
+		40CE7F640A0EA55A4D945AE0 /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,34 +280,34 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		E68920331705CEDB315ACD7D /* Embed Pods Frameworks */ = {
+		5A5D04A9D5254A3A6E74DB54 /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SugarRecordExamples/Pods-SugarRecordExamples-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E6FE731782453C22D653D11A /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SugarRecordExamples/Pods-SugarRecordExamples-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA0D16E60D634849C814757C /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SugarRecordExamples/Pods-SugarRecordExamples-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -413,7 +413,7 @@
 		};
 		23D592701C2834DC00441B41 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D131A2F246F7CAF7826F9A01 /* Pods-SugarRecordExamples.debug.xcconfig */;
+			baseConfigurationReference = 8E58200D3E1800CEA17EB10E /* Pods-SugarRecordExamples.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
@@ -427,7 +427,7 @@
 		};
 		23D592711C2834DC00441B41 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 31A691B434CCFDB7F18A563B /* Pods-SugarRecordExamples.release.xcconfig */;
+			baseConfigurationReference = D8009007D4B16EBDCDE99A93 /* Pods-SugarRecordExamples.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
